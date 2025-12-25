@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="./admission.css">
+     <title>University of Innovation | Excellence in Education</title>
+</head>
+
+<body>
+     <section id="admissions" class="admission-section">
+          <div class="form-container" data-aos="zoom-in">
+               <h2>Join Our Community</h2>
+               <p>Complete the form below to start your journey.</p>
+
+               <form id="admissionForm">
+                    <div class="input-group">
+                         <label>Full Name</label>
+                         <input type="text" id="fullname" placeholder="John Doe" required>
+                         <span class="error-msg">Name must be at least 3 characters.</span>
+                    </div>
+
+                    <div class="input-group">
+                         <label>Email Address</label>
+                         <input type="email" id="email" placeholder="john@university.edu" required>
+                         <span class="error-msg">Please enter a valid email address.</span>
+                    </div>
+
+                    <div class="input-group">
+                         <label>Phone Number</label>
+                         <input type="tel" id="phone" placeholder="+1 234 567 890" required>
+                         <span class="error-msg">Enter a valid 10-digit number.</span>
+                    </div>
+
+                    <div class="input-group">
+                         <label>Select Course</label>
+                         <select id="courseSelect" required>
+                              <option value="">-- Choose a Program --</option>
+                              <option value="cs">B.Tech Computer Science</option>
+                              <option value="ba">MBA Business Admin</option>
+                              <option value="art">Digital Arts & Design</option>
+                         </select>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Submit Application</button>
+               </form>
+
+               <div id="successBox" class="success-message">
+                    <i class="fas fa-check-circle"></i>
+                    <h3>Application Sent!</h3>
+                    <p>We will contact you via email within 24 hours.</p>
+               </div>
+          </div>
+     </section>
+</body>
+
+</html>
