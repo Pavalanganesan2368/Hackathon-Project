@@ -25,11 +25,10 @@ I'm Create a new website using responsive layouts and optimized user flow.
 3. Run using browser or Live Server
 
 ## Demo Video
-🔗 Demo Video Link Here
+🔗 https://drive.google.com/file/d/1xlyhTT50-83jhJhPnSr634CzfrV_q2R-/view?usp=drivesdk
 
 ## Author
-- Pavalan
-
+- Pavalan G
 
 Live Demo:
 https://pavalanganesan2368.github.io/Hackathon-Project/
